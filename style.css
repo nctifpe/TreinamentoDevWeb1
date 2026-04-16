@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #bed9f5;
+}
+
+header{
+    background-color: #003366;
+    padding: 1rem;
+    color: #e8eef5;
+    text-align: center;
+}
+
+header a{
+    display: inline-block; 
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+header a:hover{
+    transform: scale(1.2);
+    color: #7fe7fc;
+}
+
+.secao-quem-somos-e-habilidade
+
+main{
+    background-color: white;
+    margin:1rem;
+    border-radius: 2rem;
+}
+
+header p{
+    margin: 1rem;
+}
+nav{
+    margin: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: #e8eef5;
+    margin:1rem;
+}
+
+#habilidades{
+    border-left: solid 6px rgb(3, 80, 37);    
+    box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.5);
+    padding: 1.5rem;
+    background-color: #a3e3b1;
+    color: #000000;
+    text-align: center;
+    border-radius: 2rem;
+    justify-content: 600px;
+    margin: 1rem;
+}
+
+.secao-quem-somos-e-habilidade{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+#quem-somos{
+    text-align: center;
+    margin: 1rem;
+    
+    padding: 0.5rem;
+    border-radius: 1rem;  
+}
+#quem-somos a{
+    color: #000;
+}
+hr{
+    background-color:#0fa32f;
+    height: 2px;
+    border: none;
+}
+#quem-somos p{
+    margin-top: 0.5rem;
+}
+
+#integrantes{
+    box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.5);
+    border-left: solid 6px rgb(3, 80, 37);    
+    text-align: left;
+    margin: 1rem;
+    padding: 1.5rem;
+    
+    border-radius: 1rem;
+    background-color: #a3e3b1;
+}
+#integrantes h2{
+    margin-left: 2.5rem;
+}
+#integrantes li{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: large;
+    margin-left: 2.5rem;
+}
+
+#projetos{
+    box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.5);
+    border-left: solid 6px rgb(3, 80, 37);    
+
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #a3e3b1;
+    margin:1rem;
+    border-radius: 1rem;
+
+}
+
+
+#tables{
+    display: inline-block;
+    text-align: center;
+    padding: 2.5px;
+    margin-bottom: 20px;
+}
+
+#galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.05rem;
+    margin: 5% 0%;
+}
+
+#galeria h1{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#galeria img{
+    width: 80%;
+    height: 75%;
+    border-radius: 25px;
+    filter: drop-shadow(2px 22px 12px #000);
+}
+
+#galeria p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+#contato{
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato h2{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Conteiner{
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 2px 6px 6px 2px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+#campos{
+    display: flex;
+    flex-direction: column;
+}
+
+#campos label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+#campos input,
+#campos select,
+#campos textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: outline 0.3s ease;
+}
+
+#campos input:focus,
+#campos select:focus,
+#campos textarea:focus {
+    outline: 2px solid #8a2be2;
+    border-color: transparent;
+}
+
+#acao{
+    display:flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.botao_enviar,
+.botao_resetar{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#rodape{
+    text-align: center;
+    margin:1rem;
+}
+
+#rodape li{
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#rodape p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #085097;
+}
