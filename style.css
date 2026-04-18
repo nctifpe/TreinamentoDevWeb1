@@ -3,11 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background-color: #bed9f5;
+}
+
+.conteudo-principal{
+    margin: 0 auto;
+    width: 98%;
+    max-width: 3000px;
 }
 
 header{
@@ -27,10 +35,8 @@ header a:hover{
     color: #7fe7fc;
 }
 
-.secao-quem-somos-e-habilidade
-
 main{
-    background-color: white;
+    background-color: rgb(218, 247, 245);
     margin:1rem;
     border-radius: 2rem;
 }
@@ -38,9 +44,11 @@ main{
 header p{
     margin: 1rem;
 }
+
 nav{
     margin: 1rem;
 }
+
 nav a{
     text-decoration: none;
     color: #e8eef5;
@@ -57,14 +65,15 @@ nav a{
     border-radius: 2rem;
     justify-content: 600px;
     margin: 1rem;
+    width: 40%;
 }
 
 .secao-quem-somos-e-habilidade{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
+    align-items: center;
 }
-
 
 #quem-somos{
     text-align: center;
@@ -73,16 +82,18 @@ nav a{
     padding: 0.5rem;
     border-radius: 1rem;  
 }
+
 #quem-somos a{
     color: #000;
 }
+
 hr{
     background-color:#0fa32f;
     height: 2px;
     border: none;
 }
 #quem-somos p{
-    margin-top: 0.5rem;
+    margin: 1.2rem 0;
 }
 
 #integrantes{
@@ -91,13 +102,16 @@ hr{
     text-align: left;
     margin: 1rem;
     padding: 1.5rem;
+    width: 60%;
     
     border-radius: 1rem;
     background-color: #a3e3b1;
 }
+
 #integrantes h2{
     margin-left: 2.5rem;
 }
+
 #integrantes li{
     margin-top: 1rem;
     font-weight: 400;
@@ -116,7 +130,6 @@ hr{
     border-radius: 1rem;
 
 }
-
 
 #tables{
     display: inline-block;
@@ -149,7 +162,6 @@ hr{
     font-size: 16px;
     font-style: italic;
 }
-
 
 #contato{
     font-family: Arial, sans-serif;
@@ -223,20 +235,23 @@ hr{
     cursor: pointer;
 }
 
-#rodape{
+.rodape{
+    padding: 5px 0;
     text-align: center;
-    margin:1rem;
+    margin: 5rem 0 0; /* Aos que estiverem em dúvida: { margin: superior, inferior, lados } */
+    background-color: #003366;
+    width: 100%;
 }
 
-#rodape li{
+.rodape li{
     display: inline-block;
     padding: 1rem;
     font-size: 1.2rem;
     font-weight: 400;
 }
 
-#rodape p{
+.rodape p{
     font-size: 1.2rem;
     font-weight: 400;
-    color: #085097;
+    color: #adcdec;
 }
